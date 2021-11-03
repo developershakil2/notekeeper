@@ -1,0 +1,52 @@
+*{padding:0px; margin:0px; box-sizing:border-box}
+.header{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: start;
+    align-items:center;
+    background:rgb(32, 211, 32);
+    color:seashell;
+    font-size:18px;
+    font-weight:bold;
+}
+.inpu input{
+    height:48px;
+}
+.inpu {
+    width:300px;
+    border-radius:40px;
+    height:auto;
+   border:3px solid rgb(32, 211, 32);
+   margin-top:50px;
+   padding:30px 0px;
+   margin: auto;
+}
+.inpu h1{text-align:center;color:rgb(32, 211, 32);}
+.inpu textarea {
+    height:150px;
+    margin-top:10px;
+    resize:none;
+}
+.sub_card{
+    width:250px;
+    padding:20px 6px;
+    border:3px solid rgb(32, 211, 32);
+    border-radius:10px;
+    margin:8px 8px;
+}
+.card_align{
+    width:100%;
+    height:auto;
+    background:rgb(209, 213, 224);
+    padding:40px 0px;
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+
+@media screen  and (max-width:320px) {
+
+    .inpu{width:250px;}
+}
